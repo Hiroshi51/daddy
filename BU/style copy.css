@@ -1,0 +1,332 @@
+body {
+  background-color: #FFFFFF; }
+
+h1 {
+  font-size: 12px;
+  font-weight: lighter;
+  margin: 10px 0; }
+
+#headerWrapper {
+  width: 100%;
+  height: 485px;
+  background-color: #FDD600; }
+
+#singleHeaderWrapper {
+  width: 100%;
+  height: 185px;
+  background-color: #FDD600; }
+
+#innerWrapper {
+  width: 1000px;
+  height: 100%;
+  position: relative;
+  margin: 0 auto; }
+
+#rightInner {
+  width: 68%;
+  float: right;
+  background-color: #ECECEC;
+  height: 100%; }
+
+#singleRightInner {
+  width: 68%;
+  float: right;
+  background-color: #FDD600;
+  height: 100%; }
+
+#leftInner {
+  width: 32%;
+  float: left; }
+  #leftInner #authorArea {
+    margin: 0 auto;
+    text-align: center;
+    width: 84%;
+    font-size: 14px; }
+    #leftInner #authorArea .authorCommentTitle {
+      font-size: 15px;
+      color: #13AEED;
+      font-weight: bold;
+      margin: 35px 0 0 0; }
+    #leftInner #authorArea .authorComment {
+      text-align: left; }
+
+#logoImg img {
+  width: 305px; }
+
+#authorImg {
+  margin: 10px 0;
+  float: left; }
+  #authorImg img {
+    width: 100px;
+    height: auto; }
+
+#globalNaviWrapper {
+  width: 98%;
+  height: 45px;
+  position: absolute;
+  left: 1%;
+  bottom: 0; }
+  #globalNaviWrapper a.selected, #globalNaviWrapper a {
+    display: block;
+    float: left;
+    width: 19.5%;
+    margin: 0 0.75% 0 0;
+    height: 100%;
+    background-color: #FFFFFF; }
+  #globalNaviWrapper a:last-child {
+    display: block;
+    float: left;
+    width: 19%;
+    margin: 0 0 0 0;
+    height: 100%;
+    background-color: #ECECEC; }
+  #globalNaviWrapper a {
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #ECECEC;
+    text-align: center;
+    line-height: 45px;
+    text-decoration: none;
+    font-family: 'Cantarell', sans-serif; }
+
+#innerMainWrapper {
+  width: 980px;
+  margin: 0px auto 0 auto;
+  background-color: #FFFFFF;
+  padding: 0 0 140px 0;
+  z-index: 100;
+  position: relative; }
+
+.titleImg img, .newTitleImg img {
+  width: 300px;
+  height: auto; }
+
+.titleImg {
+  margin: 10px 0 10px 0; }
+
+.newTitleImg {
+  margin: 10px 0 10px 0; }
+
+/*LeftContent From Here*/
+#leftContent {
+  position: relative;
+  width: 61%;
+  padding: 20px 1%;
+  float: left; }
+  #leftContent h2 {
+    font-size: 26px;
+    border-bottom: 1px solid #13AEED;
+    background-repeat: no-repeat;
+    background-position: bottom right; }
+  #leftContent #blogHeader {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    margin: 5px 0; }
+  #leftContent p.date {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 45px;
+    line-height: 51px;
+    padding: 0 0 0 34px;
+    background-image: url(./img/blog/dateIcon.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 28px; }
+  #leftContent p.category, #leftContent p.tag {
+    position: absolute;
+    width: 170px;
+    height: 25px;
+    top: 10px;
+    color: white;
+    text-align: center; }
+  #leftContent p.category {
+    right: 0px;
+    background-color: #13AEED; }
+  #leftContent p.tag {
+    right: 0;
+    background-color: #30A559; }
+  #leftContent #blogContent {
+    position: relative; }
+    #leftContent #blogContent p {
+      font-size: 15px;
+      margin: 10px 0; }
+    #leftContent #blogContent p.catchyImg img {
+      width: 97%;
+      padding: 1%;
+      border: 2px dotted #ccc;
+      height: auto; }
+    #leftContent #blogContent img {
+      max-width: 100%; }
+    #leftContent #blogContent h3 {
+      border-bottom: 2px dotted #E31E32; }
+  #leftContent #blogNav {
+    margin: 20px auto 0 auto;
+    width: 98%;
+    height: 30px;
+    position: relative; }
+    #leftContent #blogNav a {
+      width: 150px;
+      display: block;
+      background-color: #ECECEC;
+      text-align: center;
+      line-height: 30px;
+      position: absolute; }
+    #leftContent #blogNav a.prev {
+      left: 0px; }
+    #leftContent #blogNav a.next {
+      right: 0px; }
+
+/*rightContent From Here*/
+#rightContent {
+  width: 35%;
+  padding: 0px 1%;
+  position: relative;
+  float: right; }
+  #rightContent #recentPostSection {
+    margin: 20px 0 0 0; }
+  #rightContent #fixedMenu {
+    line-height: 0; }
+    #rightContent #fixedMenu #categorySection {
+      margin: 30px 0 20px 0; }
+      #rightContent #fixedMenu #categorySection a {
+        width: 48%;
+        margin: 1%;
+        color: #FFFFFF;
+        text-decoration: none;
+        font-size: 12px;
+        background-color: #13AEED;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        display: block;
+        float: left;
+        text-align: center;
+        line-height: 35px; }
+    #rightContent #fixedMenu #monthlyArchiveSection {
+      margin: 30px 0 20px 0; }
+      #rightContent #fixedMenu #monthlyArchiveSection .monthlyList {
+        width: 100%; }
+      #rightContent #fixedMenu #monthlyArchiveSection .monthlyList a {
+        width: 48%;
+        margin: 1%;
+        color: #FFFFFF;
+        text-decoration: none;
+        font-size: 12px;
+        background-color: #f28c64;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        display: block;
+        float: left;
+        text-align: center;
+        line-height: 35px; }
+  #rightContent a.recentPost {
+    display: block;
+    float: left;
+    width: 44%;
+    margin: 1% 1% 1% 1%;
+    padding: 2%;
+    height: 210px;
+    text-decoration: none; }
+    #rightContent a.recentPost .recentPostImg {
+      width: 100%;
+      height: 55%;
+      overflow: hidden; }
+      #rightContent a.recentPost .recentPostImg img {
+        width: 100%;
+        height: auto; }
+    #rightContent a.recentPost .recentPostContent {
+      width: 92%;
+      padding: 0px 4%;
+      height: 45%;
+      background-color: #FFFFFF; }
+      #rightContent a.recentPost .recentPostContent h3 {
+        font-size: 13px;
+        padding: 5px 0 0 0;
+        border-bottom: 2px dotted #ccc; }
+      #rightContent a.recentPost .recentPostContent p {
+        font-size: 10px; }
+  #rightContent a.blue {
+    background-color: #FDD600; }
+  #rightContent a.red {
+    background-color: #FDD600; }
+  #rightContent a.yellow {
+    background-color: #FDD600; }
+  #rightContent a.green {
+    background-color: #FDD600; }
+  #rightContent #asideContent {
+    margin: 25px 0; }
+
+#archiveWrapper h2 {
+  font-size: 15px;
+  border-bottom: none;
+  margin: 0 0 20px 0; }
+
+ul#archiveList li p.archiveImg {
+  width: 20%;
+  float: left;
+  margin: 0 5px 0 0; }
+ul#archiveList li p.archiveContent {
+  font-size: 12px; }
+ul#archiveList li img {
+  width: 100%; }
+
+/*footer From Here*/
+#footerWrapper {
+  width: 100%;
+  height: 235px;
+  padding-top: 1px;
+  margin: -10px 0 0 0;
+  position: relative;
+  z-index: 100;
+  background-color: #13AEED; }
+  #footerWrapper .backToTop {
+    position: absolute;
+    top: -25px;
+    right: 115px;
+    width: 100px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: #13AEED; }
+  #footerWrapper #footerContent {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative; }
+  #footerWrapper #footerPostArea, #footerWrapper #footerIbadenArea {
+    text-align: center;
+    float: left;
+    width: 33.3%; }
+    #footerWrapper #footerPostArea ul, #footerWrapper #footerIbadenArea ul {
+      display: inline-block; }
+      #footerWrapper #footerPostArea ul li, #footerWrapper #footerIbadenArea ul li {
+        color: #FFFFFF;
+        margin: 0 0 10px 0;
+        font-size: 12px; }
+        #footerWrapper #footerPostArea ul li a, #footerWrapper #footerIbadenArea ul li a {
+          color: #FFFFFF; }
+    #footerWrapper #footerPostArea h4, #footerWrapper #footerIbadenArea h4 {
+      font-size: 18px;
+      color: #FFFFFF;
+      margin: 40px 0 10px 0; }
+  #footerWrapper #footerLogoArea {
+    float: right;
+    width: 33.3%;
+    text-align: center; }
+    #footerWrapper #footerLogoArea #footerLogoImg {
+      margin: 0 auto;
+      width: 200px; }
+    #footerWrapper #footerLogoArea img {
+      width: 100%;
+      margin: 0;
+      padding: 0; }
+    #footerWrapper #footerLogoArea small {
+      font-size: 10px;
+      color: #FFFFFF; }
+
+/*# sourceMappingURL=style.css.map */
